@@ -1,0 +1,27 @@
+body{
+        width: 80%;
+        margin: 0px auto;
+        background-color: cyan;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+legend{
+        text-align: center;
+}
+h1{
+        text-align: center;
+        text-decoration: underline;
+        text-shadow: 3px 3px 10px lightblue;
+}
+marquee{
+        color: red;
+        background-color: white;
+}
+button{
+        width: 70px;
+        height: 25px;
+        border-radius: 5px;
+}
+button:hover{
+        background-color: green;
+        color: white;
+}

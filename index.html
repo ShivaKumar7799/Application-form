@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Forms</title>
+        <link rel="stylesheet" href="index.css">
+</head>
+<body>
+        <h1>Application Form :</h1>
+        <form action="">
+                <fieldset>
+                        <legend>User Information</legend>
+                        <div>
+                                <label for="name">Name:</label>
+                                <input type="text" id="name">
+                        </div>
+                        <br>
+                        <div>
+                                <label for="email">Email:</label>
+                                <input type="email" id="email">
+                        </div>
+                        <br>
+                        <div>
+                                <label for="password">Password:</label>
+                                <input type="password">
+                        </div>
+                        <div> 
+                                <h4>Gender</h4>
+                                <label for="male">Male</label>
+                                <input type="radio" id="male" name="gender">
+                                <label for="female">Female</label>
+                                <input type="radio" id="female" name="gender">
+                                <label for="others">Others</label>
+                                <input type="radio" id="others" name="gender" >
+                        </div>
+                        <div>
+                                <h4>Stream:</h4>
+                                <select>
+                                        <optgroup>
+                                                <option value="computerScience">Computer Science</option>
+                                                <option value="electrical">Electrical</option>
+                                                <option value="mechanical">Mechanical</option>
+                                                <option value="electronics">Electronics</option>
+                                                <option value="AutoMobile">Automobile</option>
+                                        </optgroup>
+                                </select>
+                        </div>
+                        <div>
+                                <h4>Hobbies</h4>
+                                <label for="music">Music</label>
+                                <input type="checkbox" id="music">
+                                <label for="movies">Movies</label>
+                                <input type="checkbox" id="movies">
+                                <label for="sports">Sports</label>
+                                <input type="checkbox" id="sports">
+                        </div>
+                        <div>
+                                <textarea name="comment" id="" cols="30" rows="10" placeholder="write your skills here"></textarea>
+                        </div>
+                        <button>Submit</button>
+                        <button>Reset</button>
+                </fieldset>
+        </form>
+        <div>
+               <marquee > <h3>Please apply the Application before last date.</h3></marquee>
+        </div>
+ 
+</body>
+</html>
